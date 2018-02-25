@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="5dp"
+    android:orientation="vertical"
+    android:padding="5dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="8dp"
+    tools:context="com.example.raftiana.sitiraftianaputri_1202151365_modul3.MainActivity">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="5dp">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>
