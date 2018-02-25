@@ -12,7 +12,7 @@ import android.widget.Toast;
  */
 
 public class DetailActivity extends AppCompatActivity {
-
+    //deklarasi variabel
     ImageView battery;
     TextView ukuran;
     int i = 1;
